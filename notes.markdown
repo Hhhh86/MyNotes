@@ -6,7 +6,9 @@
 
 动态规划
 
-![image-20210523170150101](C:\Users\13436\Desktop\MyNotes\images\image-20210523170150101.png)
+
+
+![image-20210523170150101](https://github.com/Hhhh86/MyNotes/blob/master/images/image-20210523170150101.png?raw=true)
 
 这是一道典型的动态规划题目，将父问题划分为一个个子问题进行解决
 
@@ -14,7 +16,7 @@
 
 斐波那契数列的定义是 f(n + 1) = f(n) + f(n - 1)*f*(*n*+1)=*f*(*n*)+*f*(*n*−1)
 
-![image-20210523171028284](C:\Users\13436\Desktop\MyNotes\images\image-20210523171028284.png)
+![image-20210523171028284](https://github.com/Hhhh86/MyNotes/blob/master/images/image-20210523171028284.png?raw=true)
 
 **最普通的递归解法：**
 
@@ -85,7 +87,7 @@ class Solution {
 
 暴力破解 回溯 动态规划
 
-![image-20210519175114090](C:\Users\13436\Desktop\MyNotes\images\image-20210519175114090.png)
+![image-20210519175114090](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210519175114090.png?raw=true)
 
 **暴力破解：**
 
@@ -137,7 +139,7 @@ class Solution {
 
 将问题抽象成树形状结构进行解决，采用dfs往下遍历，发现这条路不符合要求时，便返回上一节点，走另外一条路。
 
-![image-20210519182333426](C:\Users\13436\Desktop\MyNotes\images\image-20210519182333426.png)
+![image-20210519182333426](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210519182333426.png?raw=true)
 
 这里我们为了方便理解，先将所有情况生成。
 
@@ -288,7 +290,7 @@ class Solution {
 
 ## [牛客.分糖果](https://www.nowcoder.com/practice/74a62e876ec341de8ab5c8662e866aef)
 
-![image-20210524173547930](C:\Users\13436\Desktop\MyNotes\images\image-20210524173547930.png)
+![image-20210524173547930](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210524173547930.png?raw=true)
 
 因为每个小朋友需要分的糖果与隔壁两个小朋友有关，所以在遍历的时候需要关注两个的大小关系
 
@@ -344,7 +346,7 @@ public class Solution {
 
 递归  迭代
 
-![image-20210523152238467](C:\Users\13436\Desktop\MyNotes\images\image-20210523152238467.png)
+![image-20210523152238467](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210523152238467.png?raw=true)
 
 写一个递归函数来统计总和，递归统计下属及其下属的重要度，最后加上自身重要度即可
 
@@ -460,7 +462,7 @@ class Solution {
 
 双指针 哈希表
 
-![image-20210523184706563](C:\Users\13436\Desktop\MyNotes\images\image-20210523184706563.png)
+![image-20210523184706563](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210523184706563.png?raw=true)
 
 除了两个循环找到下标这种蠢方法外
 
@@ -529,7 +531,7 @@ class Solution {
 
 双指针
 
-![image-20210523184320318](C:\Users\13436\Desktop\MyNotes\images\image-20210523184320318.png)
+![image-20210523184320318](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210523184320318.png?raw=true)
 
 先来蠢方法，**暴力解法**：
 
@@ -570,7 +572,7 @@ class Solution {
 
 
 
-![image-20210524165901277](C:\Users\13436\Desktop\MyNotes\images\image-20210524165901277.png)
+![image-20210524165901277](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210524165901277.png?raw=true)
 
 按照上面的方法，我们已经将三数之和问题转变成两数之和问题，只需双指针指向的值与nums[i] 刚好相加为0即可
 
@@ -635,9 +637,9 @@ class Solution {
 
 暴力破解 双指针
 
-![image-20210528161156566](C:\Users\13436\Desktop\MyNotes\images\image-20210528161156566.png)
+![image-20210528161156566](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210528161156566.png?raw=true)
 
-![image-20210528161212297](C:\Users\13436\Desktop\MyNotes\images\image-20210528161212297.png)
+![image-20210528161212297](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210528161212297.png?raw=true)
 
 
 
@@ -690,7 +692,7 @@ class Solution {
 
 ## [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
-![image-20210528164449421](C:\Users\13436\Desktop\MyNotes\images\image-20210528164449421.png)
+![image-20210528164449421](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210528164449421.png?raw=true)
 
 **两次遍历：**
 
@@ -749,7 +751,7 @@ class Solution {
 
 双指针
 
-![image-20210525140646843](C:\Users\13436\Desktop\MyNotes\images\image-20210525140646843.png)
+![image-20210525140646843](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210525140646843.png?raw=true)
 
 本道题目，可以合并数组后进行排序，较为简单。
 
@@ -806,7 +808,7 @@ class Solution {
 
 **双指针从后往前进行合并：（最优）**
 
-![image-20210525180458335](C:\Users\13436\Desktop\MyNotes\images\image-20210525180458335.png)
+![image-20210525180458335](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210525180458335.png?raw=true)
 
 用p1和p2两个指针中元素进行比较，最大的放在p
 
@@ -835,9 +837,9 @@ class Solution {
 
 ## [4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 
-![image-20210525184202845](C:\Users\13436\Desktop\MyNotes\images\image-20210525184202845.png)
+![image-20210525184202845](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210525184202845.png?raw=true)
 
-![image-20210525184223892](C:\Users\13436\Desktop\MyNotes\images\image-20210525184223892.png)
+![image-20210525184223892](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210525184223892.png?raw=true)
 
 这道题目是上题的进阶挑战版
 
@@ -907,9 +909,9 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
 ## [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
-![image-20210526175028926](C:\Users\13436\Desktop\MyNotes\images\image-20210526175028926.png)
+![image-20210526175028926](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210526175028926.png?raw=true)
 
-![image-20210526175039208](C:\Users\13436\Desktop\MyNotes\images\image-20210526175039208.png)
+![image-20210526175039208](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210526175039208.png?raw=true)
 
 链表入门题，由于单链表只能往后面节点进行遍历，所以我们使用双指针进行反转
 
@@ -947,7 +949,7 @@ class Solution {
 
 与双指针迭代解法不同，递归是从原链表最后一个节点开始依次向前反转
 
-![image-20210526194102572](C:\Users\13436\Desktop\MyNotes\images\image-20210526194102572.png)
+![image-20210526194102572](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210526194102572.png?raw=true)
 
 **递归：**
 
@@ -976,11 +978,11 @@ class Solution {
 
 暴力破解  哈希表法  双指针
 
-![image-20210518163605954](C:\Users\13436\Desktop\MyNotes\images\image-20210518163605954.png)
+![image-20210518163605954](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210518163605954.png?raw=true)
 
-![image-20210518163616089](C:\Users\13436\Desktop\MyNotes\images\image-20210518163616089.png)
+![image-20210518163616089](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210518163616089.png?raw=true)
 
-![image-20210518163628872](C:\Users\13436\Desktop\MyNotes\images\image-20210518163628872.png)
+![image-20210518163628872](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210518163628872.png?raw=true)
 
 这道题目除了容易想到的暴力解法O(m*n)和哈希表解法O(m+n)外，还有一种时间复杂度和哈希表一致的双指针解法。
 
@@ -1057,7 +1059,7 @@ public class Solution {
 
 如果其中一个指针走到最后一个位置，则将其重置为另一个链表的头指针，直至找到目标节点。
 
-![image-20210518170353699](C:\Users\13436\Desktop\MyNotes\images\image-20210518170353699.png)
+![image-20210518170353699](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210518170353699.png?raw=true)
 
 用公式证明一下就很容易理解了：
 
@@ -1077,7 +1079,7 @@ public class Solution {
 
 一起走到最后一个结点，他们的next节点都是null，退出循环。
 
-![image-20210518170914827](C:\Users\13436\Desktop\MyNotes\images\image-20210518170914827.png)
+![image-20210518170914827](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210518170914827.png?raw=true)
 
 ```java
 public class Solution {
@@ -1116,13 +1118,13 @@ public class Solution {
 
 ##  [150. 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 
-![image-20210521211401933](C:\Users\13436\Desktop\MyNotes\images\image-20210521211401933.png)
+![image-20210521211401933](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521211401933.png?raw=true)
 
 
 
 
 
-![image-20210521211413184](C:\Users\13436\Desktop\MyNotes\images\image-20210521211413184.png)
+![image-20210521211413184](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521211413184.png?raw=true)
 
 逆波兰表达式是一种十分有用的表达式，它将复杂表达式转换为可以依靠简单的操作得到计算结果的表达式
 
@@ -1184,17 +1186,17 @@ public class Solution {
 
 递归  迭代
 
-![image-20210520221005259](C:\Users\13436\Desktop\MyNotes\images\image-20210520221005259.png)
+![image-20210520221005259](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520221005259.png?raw=true)
 
-![image-20210520190822246](C:\Users\13436\Desktop\MyNotes\images\image-20210520190822246.png
+![image-20210520190822246](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520190822246.png?raw=true
 
-![image-20210520190837890](C:\Users\13436\Desktop\MyNotes\images\image-20210520190837890.png)
+![image-20210520190837890](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520190837890.png?raw=true)
 
 树的前中后序遍历是个重点，通常使用递归或者迭代完成。
 
 前序遍历是按**根-左-右**的顺序依次遍历，下面列举两个不同结构的前序遍历结果。
 
-![image-20210521171730128](C:\Users\13436\Desktop\MyNotes\images\image-20210521171730128.png)
+![image-20210521171730128](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521171730128.png?raw=true)
 
 
 
@@ -1256,15 +1258,15 @@ class Solution {
 
 ## [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
-![image-20210521171755422](C:\Users\13436\Desktop\MyNotes\images\image-20210521171755422.png)
+![image-20210521171755422](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521171755422.png?raw=true)
 
-![image-20210521171825030](C:\Users\13436\Desktop\MyNotes\images\image-20210521171825030.png)
+![image-20210521171825030](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521171825030.png?raw=true)
 
-![image-20210521171810018](C:\Users\13436\Desktop\MyNotes\images\image-20210521171810018.png)
+![image-20210521171810018](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521171810018.png?raw=true)
 
 与上题前序遍历做法类似，中序遍历是依次遍历**左-根-右**
 
-![image-20210521171730128](C:\Users\13436\Desktop\MyNotes\images\image-20210521171730128.png)
+![image-20210521171730128](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521171730128.png?raw=true)
 
 我们先找到树的最左节点，然后按顺序依次遍历。
 
@@ -1324,7 +1326,7 @@ class Solution {
 
 我们用一个简单的树结构来模拟一下迭代的流程：
 
-![image-20210521174911230](C:\Users\13436\Desktop\MyNotes\images\image-20210521174911230.png)
+![image-20210521174911230](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521174911230.png?raw=true)
 
 **root!=null** 时 在栈中依次存放节点1 2
 
@@ -1356,9 +1358,9 @@ class Solution {
 
 ## [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 
-![image-20210521180404501](C:\Users\13436\Desktop\MyNotes\images\image-20210521180404501.png)
+![image-20210521180404501](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521180404501.png?raw=true)
 
-![image-20210521171730128](C:\Users\13436\Desktop\MyNotes\images\image-20210521171730128.png)
+![image-20210521171730128](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210521171730128.png?raw=true)
 
 打印顺序为：4526731
 
@@ -1430,7 +1432,7 @@ class Solution {
 
 深度遍历 层次遍历
 
-![image-20210520164510252](C:\Users\13436\Desktop\MyNotes\images\image-20210520164510252.png)
+![image-20210520164510252](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520164510252.png?raw=true)
 
 这道题目挂个中等难度属实有点离谱。
 
@@ -1507,7 +1509,7 @@ public void levelHelper(List<List<Integer>> list, TreeNode root, int height) {
 
 和上一题解法基本一致，只需要在加入list中改变一下代码即可。
 
-![image-20210520172650112](C:\Users\13436\Desktop\MyNotes\images\image-20210520172650112.png)
+![image-20210520172650112](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520172650112.png?raw=true)
 
 这里直接给出**层序遍历**的代码：
 
@@ -1546,7 +1548,7 @@ class Solution {
 
 事不过三，我保证这是最后一道这样的变种题了。
 
-![image-20210520173241348](C:\Users\13436\Desktop\MyNotes\images\image-20210520173241348.png)
+![image-20210520173241348](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520173241348.png?raw=true)
 
 这题很有意思，单数层结果按正序插入队列，双数层则倒序插入。
 
@@ -1594,13 +1596,13 @@ class Solution {
 
 深度遍历 层次遍历
 
-![image-20210520142856174](C:\Users\13436\Desktop\MyNotes\images\image-20210520142856174.png)
+![image-20210520142856174](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520142856174.png?raw=true)
 
 **深度遍历：**
 
 本题目可以通过DFS来实现并找出它的最大深度，用递归实现DFS。
 
-![image-20210520143534473](C:\Users\13436\Desktop\MyNotes\images\image-20210520143534473.png)
+![image-20210520143534473](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520143534473.png?raw=true)
 
 ```java
 class Solution {
@@ -1664,7 +1666,7 @@ class Solution {
 
 该题与最大深度思想大致一样，只不过需要在何时返回深度变量做点文章。
 
-![image-20210520162619617](C:\Users\13436\Desktop\MyNotes\images\image-20210520162619617.png)
+![image-20210520162619617](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210520162619617.png?raw=true)
 
 基于二叉树的最大深度那道题目，我们同样采用层次遍历进行解决，在找到左右节点为第一个null节点时返回长度。
 
@@ -1719,13 +1721,13 @@ public class Solution {
 
 - **非比较类排序**：不通过比较来决定元素间的相对次序，它可以突破基于比较排序的时间下界，以线性时间运行，因此也称为线性时间非比较类排序
 
-  ![img](https://img2018.cnblogs.com/blog/849589/201903/849589-20190306165258970-1789860540.png)
+  ![img](https://img2018.cnblogs.com/blog/849589/201903/849589-20190306165258970-1789860540.png?raw=true)
 
-![img](https://images2018.cnblogs.com/blog/849589/201804/849589-20180402133438219-1946132192.png)
+![img](https://images2018.cnblogs.com/blog/849589/201804/849589-20180402133438219-1946132192.png?raw=true)
 
 ## [数组排序](https://www.nowcoder.com/practice/2baf799ea0594abd974d37139de27896)
 
-![image-20210526200638095](C:\Users\13436\Desktop\MyNotes\images\image-20210526200638095.png)
+![image-20210526200638095](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210526200638095.png?raw=true)
 
 **冒泡排序（超时）：**
 
@@ -1904,7 +1906,7 @@ public class Solution {
 
   然后依次缩减增量再进行排序，直到增量为1时，进行最后一次直接插入排序，排序结束
 
-  ![img](https://upload-images.jianshu.io/upload_images/6095354-ff984d80dbc0455f.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)
+  ![img](https://upload-images.jianshu.io/upload_images/6095354-ff984d80dbc0455f.png?raw=true?imageMogr2/auto-orient/strip|imageView2/2/format/webp)
 
   根据思想，我们用算法需要设计出：
 
@@ -1964,6 +1966,6 @@ public class Solution {
 
 ## [148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
 
-![image-20210526200735546](C:\Users\13436\Desktop\MyNotes\images\image-20210526200735546.png)
+![image-20210526200735546](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210526200735546.png?raw=true)
 
-![image-20210526200718259](C:\Users\13436\Desktop\MyNotes\images\image-20210526200718259.png)
+![image-20210526200718259](https://github.com/Hhhh86/MyNotes/tree/master/images\image-20210526200718259.png?raw=true)
